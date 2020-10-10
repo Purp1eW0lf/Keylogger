@@ -7,7 +7,7 @@ This keylogger runs in the background and copies all the keystrokes a user input
 
 The logger is heavily based on the logger written by [x4nth055](https://github.com/x4nth055). 
 
-I added the ability to feed in an email address and password, rather than hardcode it in, the ability to feed in how long you want the script to report back to you, as well as an experimental attempt to report special chracter key strokes.
+I added the ability to feed in an email address and password, rather than hardcode it in, the ability to feed in how oftem you want the script to report back to you, as well as an experimental attempt to report special chracter key strokes.
 
 ### Prerequisites
 
