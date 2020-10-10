@@ -33,6 +33,11 @@ You can also optionally feed the script the length of time you want it to wait a
 ```bash
 sudo python3 logger.py -e gmail@Address -p Password -l 120
 ```
+
+#### Google Security
+##### Make sure this option is selected in your Gmail Security
+![Google Security](https://github.com/Purp1eW0lf/Keylogger/blob/main/images/Google%20Security.jpg)
+
 #### Help Image
 ![Help Image](https://github.com/Purp1eW0lf/Keylogger/blob/main/images/HELP.jpg)
 
@@ -42,7 +47,8 @@ sudo python3 logger.py -e gmail@Address -p Password -l 120
 #### Email Report Image
 ![Email report](https://github.com/Purp1eW0lf/Keylogger/blob/main/images/Logged%20Email.jpg)
 
-### Known Issues
+
+## Known Issues
 Sometimes the emails don't send at the regular interval, but will come in batch and you'll get a handful at once
 * Fix: I'm not clever enough to figure out why yet.
 
