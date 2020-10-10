@@ -44,7 +44,7 @@ sudo python3 logger.py -e gmail@Address -p Password -l 120
 
 ### Known Issues
 Sometimes the emails don't send at the regular interval, but will come in batch and you'll get a handful at once
-* Fix: I'm not clever enough to figuire out why yet
+* Fix: I'm not clever enough to figure out why yet.
 
 The script tries to tranpose special characters by examining is the user presses the SHIFT key and a corresponding number. This is majorly flawed, however, as it is entirely keyboard dependent. It is therefore trash. The current script is based on a Macbook keyboard. 
 * Fix: If you're able to do some recon on the user's keyboard, you can change the section mid-script and reassign the key values for better accuracy. 
@@ -54,3 +54,6 @@ The script tries to tranpose special characters by examining is the user presses
 If you notice a way the script can be improved you're welcome to make requests and raise issues. 
 You're also welcome to slide in my Twitter DMs and tell me how shit the logger is.
 [@Purp1eW0lf](https://twitter.com/Purp1eW0lf)
+
+#### License
+This tool is free to use. Do not use for illegal purposes. Only use for academic purposes, on computers that you have permission to access. 
