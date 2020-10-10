@@ -3,7 +3,7 @@
 ## Description
 Want a terrible keylogger? Look no further!
 
-This keylogger runs in the background and copies all the keystrokes a user inputs. After an interval, it then emails these keystrokes to the gmail given.
+This keylogger runs in the background and copies all the keystrokes a user inputs. After an interval, it then emails these keystrokes to the gmail given. If the user doesn't type anything, the logger knows not to email anything. 
 
 The logger is heavily based on the logger written by [x4nth055](https://github.com/x4nth055). 
 
