@@ -33,6 +33,15 @@ You can also optionally feed the script the length of time you want it to wait a
 ```bash
 sudo python3 logger.py -e gmail@Address -p Password -l 120
 ```
+#### Help Image
+![Help Image](https://github.com/Purp1eW0lf/Keylogger/blob/main/images/HELP.jpg)
+
+#### Usage Image
+![Usage image](https://github.com/Purp1eW0lf/Keylogger/blob/main/images/Example%20Use.jpg)
+
+#### Email Report Image
+![Email report](https://github.com/Purp1eW0lf/Keylogger/blob/main/images/Logged%20Email.jpg)
+
 ### Known Issues
 Sometimes the emails don't send at the regular interval, but will come in batch and you'll get a handful at once
 * Fix: I'm not clever enough to figuire out why yet
