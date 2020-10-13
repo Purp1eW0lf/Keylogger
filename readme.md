@@ -15,7 +15,7 @@ This logger has been built on a number of assumptions:
 * You've can run sudo on a comprimised linux system
 * You have access to Gmail, and have turned on 'less secure app access' in your security settings
 
-You'll need to install the following pip3 modules, if you don't already have them:
+You'll need to install the following modules, if you don't already have them:
 ```bash
 pip3 install keyboard
 pip3 install argparse
